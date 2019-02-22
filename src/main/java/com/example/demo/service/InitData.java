@@ -25,7 +25,7 @@ public class InitData implements ApplicationListener<ApplicationReadyEvent> {
     }
 
     private void insertTestData() {
-        Client client1 = newClient("PETRILLO", "Alexandre", 30, "Lyon");
+        Client client1 = newClient("PETRILLO", "Ale;xandre", 30, "Lyon");
         em.persist(client1);
 
         Client client2 = newClient("HYVERNAT", "Luc", 20, "Lyon");
